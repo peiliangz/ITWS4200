@@ -11,16 +11,24 @@
 				
 				font-family: 'Merriweather Sans',sans-serif;
 				font-size: 2em;
-				text-shadow: 0 0 10px #000;
-				color: #fff;
-				background: #888;
+				text-shadow: 2px 2px 10px #FF0000;
+				color: lightgrey;
+				opacity: 0.8;
+				background-color: red;
 				background-repeat: no-repeat;
 				background-attachment: fixed;
 				
 			}
+			
+			
+			@media screen and (max-width: 600px) {
+			    body {
+			        background-color:lightblue;
+			    }
 			section{
 				min-height: 100%;
 			}
+			
 			h3{
 				font-size: 2em;
 				padding: 0 0.3em;
@@ -33,7 +41,7 @@
 				color: #fff;
 			}
 			footer{
-				position: absolute;
+				position: relative;
 				bottom: 0;
 				font-size: 1em;
 			}
@@ -60,7 +68,7 @@
 </div>
 </div>
 	        
-	
+
 	<script src="weather.js" type="text/javascript"></script>
 	
 </body>
