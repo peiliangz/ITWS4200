@@ -1,0 +1,237 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:700);
+
+#file { width: 99%; height: 200px; }
+#inputplace{}
+#jsontocsv{
+  @import url(http://fonts.googleapis.com/css?family=Lobster);
+  margin:100px;
+  text-shadow: 0px 2px 1px #777 , 0px -4px 2px #000;
+  color: #222;
+  font-size: 40px;
+  font-family: 'Montserrat:700', cursive;
+  position: relative;
+  left: 250px;
+  color: #B68ED4;
+}
+
+h2.nameofthefile{
+  text-align:center;
+}
+span.nameofthefile{
+  text-align:center;
+}
+#nameofthefile{
+  font-size:20px;
+  font-family: "Lato";
+  text-align:center;
+}
+
+#inputplace{
+
+  width: 300px;
+}
+
+body {
+    background-color: #FFF;
+}
+
+.submit {
+    /* placing */
+    margin-top: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* end of placing */
+    height: 60px;
+    width: 150px;
+    background-color: #FFF;
+    border: 2px solid #1ECD97;
+    border-radius: 50px;
+    color: #1ECD97;
+    font-size: 16px;
+    font-family: Montserrat;
+    transition: 0.4s;
+    outline-style: none;
+    cursor: pointer;
+    postion:relative;
+    top:20px;
+}
+
+.submit:hover {
+    background-color: #1ECD97;
+    color: #FFF;
+    transition: 0.4s;
+}
+
+.success {
+    /* placing */
+    margin-top: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* end of placing */
+    height: 60px;
+    width: 150px;
+    background-color: #1ECD97;
+    color: #FFF;
+    border: 2px solid #1ECD97;
+    border-radius: 50px;
+    font-size: 16px;
+    font-family: Montserrat;
+    transition: 0.4s;
+    outline-style: none;
+    cursor: pointer;
+}
+
+.loader {
+    /* placing */
+    margin-top: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* end of placing */
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 4px solid #eee;
+    border-top: 4px solid #1ecd97;
+    color: #FFF; /* Yes it's useless */
+    outline-style: none;
+    transform: rotate(360deg);
+    transition: 0.6s;
+}
+
+i {
+    font-size: 25px;
+}
+
+ul.tweetlist {
+	background-color: #EFEFEF;
+	padding: 1em 2em;
+}
+ul.tweetlist li {
+	background-color: #FFF;
+	border-radius: 5px;
+	list-style-type: none;
+	padding: 1em 0.5em;
+	margin: 0.5em 0;
+	line-height: 1.5em;
+	overflow: auto;
+}
+ul.tweetlist li span.date {
+	float: left;
+	background-color: #35506B;
+	color: #EEE;
+	padding: 0.25em 0.5em;
+	margin: 0 0.5em 0 0;
+	border-radius: 4px;
+}
+ul.tweetlist li span.handle {
+	font-weight: bold;
+}
+ul.tweetlist li span.tweet {
+	display: block;
+	padding: 0.25em 0.5em;
+}
+ul.tweetlist li span.text {
+	font-style:italic;
+}
+ul#tweets {
+	display: none;
+}
+
+div.header{
+  -webkit-box-sizing: border-box; /* Android ≤ 2.3, iOS ≤ 4 */
+  -moz-box-sizing: border-box; /* Firefox 1+ */
+  box-sizing: border-box; /* Chrome, IE 8+, Opera, Safari 5.1 */
+  background:url('http://blog.travelpapa.com/wp-content/gallery/new-photos/holi-feast-3.jpg') no-repeat;
+  background-size:cover;
+  background-attachment:fixed;
+}
+
+div.input-text {
+    background: #fff;
+    overflow: hidden;
+    width: 440px;
+    margin: 0 auto;
+    margin-top: 10rem;
+    padding: .75rem 1rem;
+    border-radius: 2px;
+    border: 1px solid #ccc;
+    box-shadow: inset 0 2px 2px rgba(0,0,0,.1);
+}
+
+
+
+/* Animation stuff */
+
+
+p.message {
+    position: relative;
+    float: left;
+    margin: 0;
+    font-size: 27px;
+    letter-spacing: 0px;
+    font-family: 'Menlo', monospace;
+    margin: 0;
+    margin-bottom: 1.5rem;
+}
+
+
+
+p.message span {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 0;
+    background: #fff;
+    border-left: 4px solid #167ff0;
+
+    -webkit-animation-name: typing, blinking;
+    -webkit-animation-duration: 5s, 1s;
+    -webkit-animation-iteration-count: 1, infinite;
+    -webkit-animation-timing-function: steps(21,end), steps(1,end);
+
+
+}
+
+@-webkit-keyframes typing {
+  0%   { width: 100%; }
+  100% { width: 0; }
+}
+
+@-webkit-keyframes blinking {
+  0%   { border-color: transparent; }
+  50% { border-color: #167ff0; }
+  100% { border-color: transparent; }
+}
+
+h2 {
+font-size: 75px;
+font-family:medula one;
+color:#ccc;
+
+-webkit-transition: all .7s ease-out;
+   -moz-transition: all .7s ease-out;
+   -o-transition: all .7s ease-out;
+   transition: all .7s ease-out;
+}
+
+h2:hover{
+cursor:pointer;
+color:#fff;
+text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+}

@@ -1,0 +1,41 @@
+Name: Peiliang Zou
+RCS: zoup
+
+#Run the program:
+
+1. type "npm install" in the terminal to install all the dependencies required in the
+package.json.
+
+2. Open another terminal and type "mongod lab7/data"
+
+3. type "node server2.js" in the terminal
+
+4. Open your browser and go to localhost:3000/newtry.html
+
+#Detail:
+1. Bootstrap framework
+
+I deployed the bootstrap tab plug-in in my html page.So in the main page:
+ localhost:3000/newtry.html you would see three tabs with title: "CSV file","Show CSV" and
+  "MongoDB". Once notice that for the tab "MongoDB", it's a dropdown menu with three sub-menu named:
+  "build", "display ", and "save2json". Every tab page include a button.
+
+The functionalities embedded within the "CSV file" and "Show CSV "are  nearly identical to
+what I've achieved in lab6, except I added some elaboration to it.
+
+For the "MongoDB" tab, the first dropdown menu is "build" in which button "build" has been
+placed. Once you click the button, the action will trigger the route and the data read from twitter API will be stored in the database.
+For now you could only build the database once. Click the "build" button multiple times without pause the nodejs server
+will cause problem.
+
+The second dropdown menu is "display" in which button "display" has been placed. Click that
+button will show tweets dynamically appearing 5 a time.
+
+The third dropdown menu is "save2json" in which button "save2json" and a input textfield
+has been placed. Click that button will read the data from the database and save it into a json file
+in the main directory.
+
+2.Mongoose and Routes.
+For the MongonDB I use the mongoose framework to establish the database. I developed
+three routes and get/post method to deal with the interaction for the user in the front-end and mongoDb(express server)
+in the back-end.

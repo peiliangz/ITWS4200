@@ -1,0 +1,21 @@
+"created_at","id","text","user_id","user_name","user_screen_name","user_location","user_followers_count","user_friends_count","user_created_at","user_time_zone","user_profile_background_color","user_profile_image_url","geo","coordinates","place"
+"Wed Apr 01 01:22:17 +0000 2015",583076888630837200,"Node.js v0.12.2 (Stable) with many bug fixes and an upgrade to npm 2.7.4. More details at http://t.co/O9x05T7Wfm. Thank you! #nodejs",,,,,,,,,,,null,null,null
+"Mon Mar 30 17:47:28 +0000 2015",582600042193666000,"Interested in the recent changes in governance for #nodejs? Follow @nodeadvisory and check out http://t.co/EQZcYYAcRo",,,,,,,,,,,null,null,null
+"Tue Mar 24 04:31:55 +0000 2015",580225504948580400,"Node.js v0.12.1 (Stable): http://t.co/5tT9noOOMR upgrades OpenSSL to 1.0.1m and fixes several CVEs. Thank you everyone! #nodejs",,,,,,,,,,,null,null,null
+"Mon Mar 23 22:43:43 +0000 2015",580137880812556300,"Node.js v0.10.38 (Maintenance): http://t.co/KIxT9lJ05A upgrades OpenSSL to 1.0.1m and fixes several CVES. Thank you everyone! #nodejs",,,,,,,,,,,null,null,null
+"Sat Mar 14 18:29:55 +0000 2015",576812518548492300,"Node.js v0.10.37 (Maintenance) http://t.co/l8Vr0YSz03 with fix for CVE-2015-0278 and other bugs. Thank you everyone! #nodejs",,,,,,,,,,,null,null,null
+"Fri Mar 06 20:31:44 +0000 2015",573944070600462340,"http://t.co/biIhxxiVDh now redirects http -&gt; https except for subdomains, /dist and .json files. Please let us know if you find any issues.",,,,,,,,,,,null,null,null
+"Fri Feb 06 22:34:33 +0000 2015",563828118389932000,"Node.js v0.12.0 (Stable) is here. Make sure to read http://t.co/Jl8fiZzOUF for the list of changes. Thank you everyone! #nodejs",,,,,,,,,,,null,null,null
+"Fri Jan 30 17:33:48 +0000 2015",561215715324071940,"Node v0.11.16 (Unstable) http://t.co/kPdoUI51tg with npm 2.3.0, OpenSSL upgrade and bug fixes. Thank you everyone! #nodejs",,,,,,,,,,,null,null,null
+"Mon Jan 26 20:35:04 +0000 2015",559811783850876900,"Node v0.10.36 (Stable) http://t.co/Msk1t774qj #nodejs",,,,,,,,,,,null,null,null
+"Wed Jan 21 00:33:26 +0000 2015",557697443996106750,"Node v0.11.15 (Unstable) http://t.co/6bPMOkc1ni Once again, thank you everyone for your work and your patience! #nodejs",,,,,,,,,,,null,null,null
+"Wed Dec 24 01:42:30 +0000 2014",547567965022216200,"Node v0.10.35 (Stable) http://t.co/soDNwyb0UK #nodejs",,,,,,,,,,,null,null,null
+"Wed Dec 17 22:46:12 +0000 2014",545349270241435650,"Node v0.10.34 (Stable) http://t.co/VimTZXc1VK tomorrow is v0.11.15 (the release candidate for v0.12)",,,,,,,,,,,null,null,null
+"Fri Dec 05 22:01:48 +0000 2014",540989441544683500,"New blog: Listening to the Community http://t.co/0jP1HgUctP #nodejs",,,,,,,,,,,null,null,null
+"Thu Dec 04 20:58:22 +0000 2014",540611090925645800,"Today's advisory board meeting is starting in 2mins, dial in details can be found here: https://t.co/KkWjmauWj7 #nodejs",,,,,,,,,,,null,null,null
+"Wed Dec 03 19:18:24 +0000 2014",540223542315348000,"New blog: Advisory Board Update http://t.co/BnD78ywHHA #nodejs",,,,,,,,,,,null,null,null
+"Fri Oct 31 21:51:40 +0000 2014",528303315998621700,"RT @isntitvacant: dear friends, I made a thing for triaging Node bugs: https://t.co/Zb0Zx8Iumy, featuring the return of the Node rocket tur…",,,,,,,,,,,null,null,null
+"Thu Oct 23 19:40:20 +0000 2014",525371160893341700,"Node v0.10.33 (Stable) http://t.co/CCCcypDU1C This disables for the common case SSLv2/SSLv3 (POODLE) and upgrades openssl to 1.0.1j",,,,,,,,,,,null,null,null
+"Thu Sep 25 00:20:05 +0000 2014",514932314447433700,"Node v0.11.14 (Unstable) http://t.co/3bzTOam2vH with a lot of work, by a lot of people -- Thanks everyone for your patience!",,,,,,,,,,,null,null,null
+"Tue Sep 16 23:58:48 +0000 2014",512027855094427650,"Node v0.10.32 (Stable) http://t.co/3zsfFfLTLu fixes a v8 crashes, and a crypto domain bug",,,,,,,,,,,null,null,null
+"Tue Aug 19 22:20:44 +0000 2014",501856317951475700,"Node v0.10.31 (Stable) If you were seeing busy loops from timers this release includes that fix. http://t.co/viC9q6Zz4A",,,,,,,,,,,null,null,null

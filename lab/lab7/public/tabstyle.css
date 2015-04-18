@@ -1,0 +1,106 @@
+
+$white: #ffffff
+$offwhite: #f5f5f5
+$lightBlue: #01bcd6
+$lightBlueTrans: rgba(1, 188, 214, 0.85)
+$purple: #9d21b2
+$purpleTrans: rgba(157, 33, 178, 0.85)
+$orange: #ff6a16
+$orangeTrans: rgba(255, 106, 22, 0.85)
+$yellow: #fca901
+$yellowTrans: rgba(252, 169, 1, 0.85)
+$black: #333333
+$blackTrans: rgba(51, 51, 51, 0.85)
+
+$transition: .2s ease all
+
+$tabWrapWidth: 600px
+
+// bootstrap overrides
+.nav li a:focus, .nav li a:hover
+	background: transparent
+
+// tab styles
+.tabWrap
+	width: $tabWrapWidth
+	margin: 50px
+	background: $offwhite
+
+.tab-content
+	height: 220px
+	padding: 10px 5px
+	position: relative
+	background: $lightBlue
+	.tab-pane
+		position: relative
+		bottom: 10px
+
+.nav-tabs li.active a, .nav-tabs li.active a:focus, .nav-tabs li.active a:hover // overrides bootstrap base style
+	border: none
+	color: $white
+	background: none
+
+.nav-tabs // overrides bootstrap base style
+	li
+		width: 24%
+		a
+			border-radius: 0
+			color: $white
+			border: none
+			padding: 15px 0
+			margin-right: 0
+	.shifter
+		width: 4%
+		transition: $transition
+	.shifterBack
+		background: $purple
+		border-right: 1px solid $offwhite
+		&:hover
+			background: $purpleTrans
+		a:hover
+			background: transparent
+	.shifterForward
+		border-left: 1px solid $offwhite
+		background: $yellow
+		&:hover
+			background: $yellowTrans
+		a:hover
+			background: transparent
+
+.tabAnchor
+	transition: $transition
+
+.tabInner
+	padding: 10px
+	margin: 10px
+	height: 200px
+	background: $white
+	border-radius: 10px
+
+.tabToggle
+	transition: $transition
+
+.firstPanel, .nav-tabs li a.firstPanel, .nav-tabs li.active a.firstPanel, .nav-tabs li.active a.firstPanel:focus, .nav-tabs li.active a.firstPanel:hover
+	background: $lightBlue
+	&:hover
+		background: $lightBlueTrans
+
+.secondPanel, .nav-tabs li a.secondPanel, .nav-tabs li.active a.secondPanel, .nav-tabs li.active a.secondPanel:focus, .nav-tabs li.active a.secondPanel:hover
+	background: $purple
+	&:hover
+		background: $purpleTrans
+
+.thirdPanel, .nav-tabs li a.thirdPanel, .nav-tabs li.active a.thirdPanel, .nav-tabs li.active a.thirdPanel:focus, .nav-tabs li.active a.thirdPanel:hover
+	background: $orange
+	&:hover
+		background: $orangeTrans
+
+.fourthPanel, .nav-tabs li a.fourthPanel, .nav-tabs li.active a.fourthPanel, .nav-tabs li.active a.fourthPanel:focus, .nav-tabs li.active a.fourthPanel:hover
+	background: $yellow
+	&:hover
+		background: $yellowTrans
+
+.fifthPanel, .nav-tabs li a.fifthPanel, .nav-tabs li.active a.fifthPanel, .nav-tabs li.active a.fifthPanel:focus, .nav-tabs li.active a.fifthPanel:hover
+	background: $black
+	&:hover
+		background: $blackTrans

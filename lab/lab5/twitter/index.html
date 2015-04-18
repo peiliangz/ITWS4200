@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<script src= "http://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.min.js"></script>
+</head>
+
+<body>
+  <p> Please submit a number for tweets to dispay!
+	  Please note that the total number of tweets is less than 20, so carefully choose your number 
+  </p>
+  <div ng-app="" ng-controller="customersController">
+    <input ng-model="tweetnum"><button ng-click="toggle(tweetnum)">Submit</button>
+  
+
+
+<ul id='tweets'>
+  <li ng-repeat="x in names|limitTo:quantity">
+    {{ x.text }} 
+  </li>
+</ul>
+
+</div>
+
+<script>
+//var myApp=angular.module('tweetdisplay',[]);
+//myApp.controller('customersController',['scope'])	
+	
+
+
+function customersController($scope,$http) {
+  $http.get("tweet-conventions.json")
+  .success(function(response) {$scope.names = response;});
+  $scope.quantity=0;
+  $scope.toggle=function(quantity){
+	$scope.quantity=quantity;
+};
+  
+  
+}
+
+
+
+
+/*
+
+*/
+</script>
+</body>
+</html>
