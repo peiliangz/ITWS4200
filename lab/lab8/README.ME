@@ -1,0 +1,38 @@
+Name: Peiliang Zou
+RCS:zoup
+RIN: 661412298
+
+#RUN THE PROGRAM:
+1. open your terminal and type "npm install" to install all the dependencies node
+modules for the program.
+2. type "npm start" and then open the browser and go to:localhost:3000 where
+you'll expect to see the main page of the program.
+3.Paste the
+
+"PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX type: <http://dbpedia.org/class/yago/>
+PREFIX prop: <http://dbpedia.org/property/>
+SELECT *
+WHERE {
+    ?country a type:LandlockedCountries ;
+             rdfs:label ?country_name ;
+             prop:populationEstimate ?population .
+    FILTER (?population > 15000000) .
+}LIMIT 10"
+
+to the textarea.
+4. Click on the send button, you will see the results displaying below the textarea.
+
+#DETAILS:
+(1) Express framework, jade engine template and more
+For this lab, I first thoroughly deployed the express framework, where I found
+super useful because the the framework is auto-generatored which make the coding
+progress much more easier.
+
+I also used the angular.js to make the program more easier to maintain and for
+the user interface, I use the bootstrap framework.
+
+(2) Sparql modules, "POST" Method
+In order to get access to Sparql database in node server, I install sparql-client
+modules. And I add a route in the index.js named "/sparql". I used the post method to
+send the message user typed in the textarea from the frontend to the server.
